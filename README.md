@@ -3,9 +3,15 @@ Unofficial pytorch code for Seeing-Motion in the Dark. This implementation is he
 
 ## Code
 
+When training and testing on 512×512 patches, our results is very close to that retrained on offical code.
 ### Train
 
-
+  ```
+  python train_patch512.py
+  ```
 
 ### Test
  
+  ```
+  python test_patch512.py
+  ```
